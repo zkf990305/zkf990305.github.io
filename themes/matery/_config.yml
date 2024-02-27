@@ -44,8 +44,8 @@ dream:
 # Whether to display the musics.
 # 是否在首页显示音乐.
 music:
-  enable: false
-  showTitle: false
+  enable: true
+  showTitle: true
   title: 听听音乐
   fixed: false # 开启吸底模式
   autoplay: true # 是否自动播放
