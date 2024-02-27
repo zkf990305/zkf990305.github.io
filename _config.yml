@@ -112,10 +112,9 @@ theme: matery
 # Deployment
 ## Docs: https://hexo.io/docs/deploydeployment.html
 deploy:
-  - type: git
-    repository:
-      github: git@github.com:zkf990305/zkf990305.github.io.git
-    branch: main
+  type: git
+  repository: git@github.com:zkf990305/zkf990305.github.io.git
+  branch: main
 
 live2d:
   enable: false
