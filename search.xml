@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>HTML5 新特性及已移除元素</title>
+      <link href="/2024/03/25/html5-xin-te-xing-ji-yi-yi-chu-yuan-su/"/>
+      <url>/2024/03/25/html5-xin-te-xing-ji-yi-yi-chu-yuan-su/</url>
+      
+        <content type="html"><![CDATA[<p>HTML5 作为 HTML 的最新标准，引入了一系列新特性和改进，旨在提供更为丰富和强大的 Web 内容。然而，随着新特性的引入，HTML5 也对一些过时或不再推荐使用的元素进行了移除。</p><h3 id="新特性"><a href="#新特性" class="headerlink" title="新特性"></a>新特性</h3><ul><li>语义化标签： HTML5 引入了一系列新的语义化标签，如 <code>&lt;header&gt;</code>, <code>&lt;footer&gt;</code>, <code>&lt;nav&gt;</code>, <code>&lt;article&gt;</code>, <code>&lt;section&gt;</code> 等，用于更清晰地描述页面内容的结构。这些标签有助于提高页面的可读性和可访问性。</li><li>多媒体支持： 用于媒介回放的 <code>&lt;video&gt;</code> 和 <code>&lt;audio&gt;</code> 元素，使得在网页上嵌入音频和视频变得更加简单，无需依赖第三方插件。</li><li>Canvas 绘图： HTML5 引入了 <code>&lt;canvas&gt;</code> 元素，使得通过 JavaScript 来绘制图形、动画和图表变得更加方便。</li><li>本地存储： HTML5 提供了本地存储能力，包括 Web Storage（LocalStorage 和 SessionStorage）和 IndexedDB，使得 Web 应用能够在客户端存储数据，提高了离线应用的体验和性能。<ul><li><code>localStorage</code> 长期存储数据， 浏览器关闭后数据不丢失</li><li><code>sessionStorage</code> 的数据在浏览器关闭后自动删除</li></ul></li><li>表单增强： HTML5 引入了一些新的表单元素和属性，如 <code>&lt;input type=&quot;date&quot;&gt;</code>, <code>&lt;input type=&quot;email&quot;&gt;</code>, <code>&lt;input type=&quot;url&quot;&gt;</code>, <code>&lt;input type=&quot;number&quot;&gt;</code>, <code>&lt;input type=&quot;range&quot;&gt;</code> 等，简化了表单输入和验证。</li><li>语义化内容： HTML5 引入了一些新的语义化元素，如 <code>&lt;figure&gt;</code>、<code>&lt;figcaption&gt;</code>、<code>&lt;time&gt;</code>、<code>&lt;mark&gt;</code> 等，有助于更准确地描述页面内容，提高页面的可访问性和 SEO。</li><li>响应式设计支持： HTML5 提供了更多的元素和 API，以支持响应式设计和移动设备优化，如 <code>&lt;meta&gt;</code> 标签中的 viewport 属性、媒体查询等。这使得开发的网站能够在不同的设备上呈现出最佳的布局和样式。</li><li>新的技术: <code>webworker</code> 、 <code>websocket</code> 、 <code>Geolocation</code></li></ul><h3 id="移除的元素"><a href="#移除的元素" class="headerlink" title="移除的元素"></a>移除的元素</h3><ul><li>过时的表单元素：如 <code>&lt;acronym&gt;</code>, <code>&lt;applet&gt;</code>, <code>&lt;dir&gt;</code>, <code>&lt;frame&gt;</code>, <code>&lt;frameset&gt;</code>, <code>&lt;noframes&gt;</code>, <code>&lt;isindex&gt;</code> 等也被移除了。</li><li>过时的引用元素：如 <code>&lt;basefont&gt;</code>, <code>&lt;big&gt;</code>, <code>&lt;center&gt;</code>, <code>&lt;font&gt;</code>, <code>&lt;strike&gt;</code>, <code>&lt;tt&gt;</code> 等也被移除了。</li><li>嵌套的表单： HTML5 不再允许嵌套的表单，即 <code>&lt;form&gt;</code> 元素不能再嵌套在另一个 <code>&lt;form&gt;</code> 元素内部。</li></ul><p>总的来说，HTML5 的新特性和改进为开发者创造了更为便捷和强大的开发环境，同时移除过时的元素也有助于减少不必要的复杂性，提升了 HTML 的整体质量和规范性。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 前端基础 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> HTML </tag>
+            
+            <tag> 面试题 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>探究HTML语义化的定义、优势以及必要性</title>
+      <link href="/2024/03/25/tan-jiu-html-yu-yi-hua-de-ding-yi-you-shi-yi-ji-bi-yao-xing/"/>
+      <url>/2024/03/25/tan-jiu-html-yu-yi-hua-de-ding-yi-you-shi-yi-ji-bi-yao-xing/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>用正确的标签做正确的事情！</p><p>HTML 语义化就是让页面的内容结构化，便于对浏览器 、搜索引擎解析；</p><p>在没有样式 CSS 情况下也以⼀种⽂档格式显示，并且是容易阅读的。</p><p>搜索引擎的爬虫依赖于标记来确定上下⽂和各个关键字的权重，利于 SEO 。</p><p>使阅读源代码的⼈对网站更容易将网站分块，便于阅读维护理解。</p></blockquote><h3 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h3><p>HTML 语义化是指在编写 HTML 代码时，使用具有明确含义的标签来描述文档的结构和内容，以便让浏览器、搜索引擎和开发者更好地理解和解释页面的含义。语义类标签是对内容的补充，表达标题摘要，文章结构、强调重点、丰富含义，避免歧义。</p><p>这些语义化的标签包括 <code>&lt;header&gt;</code>, <code>&lt;footer&gt;</code>, <code>&lt;nav&gt;</code>, <code>&lt;article&gt;</code> , <code>&lt;section&gt;</code>, <code>&lt;aside&gt;</code>等，它们能够更准确地反映页面的结构和内容，使得代码更易于理解和维护。</p><h3 id="优势"><a href="#优势" class="headerlink" title="优势"></a>优势</h3><ul><li>增强可读性：语义化标签使得代码更易于理解和维护，提高了代码的可读性和可维护性。</li><li>增强可访问性：语义化标签有助于屏幕阅读器定位和朗读页面内容，提升了网站的可访问性。</li><li>增强结构清晰度：语义化标签能够让阅读源代码的人更容易将网站分块，便于阅读、维护和理解。</li><li>利于 <code>SEO</code>：搜索引擎的爬虫依赖于标记来确定上下文和各个关键字的权重，使用语义化标签有助于搜索引擎更好地理解页面内容，提高网站的 <code>SEO</code>排名。</li></ul><h3 id="必要性"><a href="#必要性" class="headerlink" title="必要性"></a>必要性</h3><p>HTML 语义化是前端开发中的一项重要实践，它能够提高代码的可读性、可维护性，增强网站的可访问性和 <code>SEO</code> 优化。</p><p>在明确知晓语义化标签的含义和组合搭配后，探索其使用的最佳实践和场景，而不是盲目地滥用、错用语义化标签，在一些特殊情况下，可能需要根据具体情况权衡利弊，选择合适的方案，（利用无语义标签，如<code>&lt;div&gt;</code>和<code>&lt;span&gt;</code>可以满足几乎所有开发需求 <strong>还是喜欢 <code>div</code> 一把梭。</strong>）才能让 HTML 语义化标签体现更好的价值，从而提升用户体验和开发效率。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 前端基础 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> HTML </tag>
+            
+            <tag> 面试题 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>深入理解块级元素、行内块级元素和行内元素：特点、区别及转换方法</title>
+      <link href="/2024/03/25/shen-ru-li-jie-kuai-ji-yuan-su-xing-nei-kuai-ji-yuan-su-he-xing-nei-yuan-su-te-dian-qu-bie-ji-zhuan-huan-fang-fa/"/>
+      <url>/2024/03/25/shen-ru-li-jie-kuai-ji-yuan-su-xing-nei-kuai-ji-yuan-su-he-xing-nei-yuan-su-te-dian-qu-bie-ji-zhuan-huan-fang-fa/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>块元素（div、p、hr、h1-h6、header、footer、ul&gt;li 、 dl dt dd）：可设宽高，padding，border，margin，line-height。 占父容器的一行，里面可以容纳其他标签和文本。<br>行内元素（span 、i、b-strong、u、s、a）： 不可设置宽高、可设置水平方向的 padding，border，margin，垂直方向不行，多个行内在同一行显示，里面一般仅放文本，但 a 标签除外。<br>行内块元素（input、button、select、img）：可设置宽高，padding，border，margin，line-height，多个行内块在一行显示。<br>如何转换，通过 display 设置：<br><code>display: block | inline-block | line</code></p></blockquote><p>在 HTML 和 CSS 中，元素可以被归类为块级元素、行内块级元素和行内元素。它们在页面布局和样式上有着不同的特点和行为。在本文中，我们将深入探讨这三种元素类型的特点、区别以及它们之间的转换方法。</p><h3 id="块级元素"><a href="#块级元素" class="headerlink" title="块级元素"></a>块级元素</h3><p>  块级元素以块的形式显示在页面上，它们会独占一行或多行空间，并且默认情况下会在前后创建换行。块级元素可以设置宽度、高度、内外边距等样式属性。</p><h4 id="特点"><a href="#特点" class="headerlink" title="特点"></a>特点</h4><ul><li>在页面上单独占据一行或多行的空间。</li><li>注意：块级元素的宽度默认是自动撑开到容器的宽度，而不是默认为100%</li><li>可以容纳内联元素和其他块元素。</li><li>默认情况下会在前后创建换行。</li><li>可以设置宽度、高度、内外边距等样式属性。</li></ul><h4 id="示例块级元素"><a href="#示例块级元素" class="headerlink" title="示例块级元素"></a>示例块级元素</h4><p>  <code>&lt;div&gt;</code>，<code>&lt;p&gt;</code>，<code>&lt;hr&gt;</code>，<code>&lt;h1&gt;</code>-<code>&lt;h6&gt;</code>，<code>&lt;header&gt;</code>，<code>&lt;footer&gt;</code>，<code>&lt;ul&gt;</code>，<code>&lt;li&gt;</code>，<code>&lt;dl&gt;</code>-<code>&lt;dt&gt;</code>-<code>&lt;dd&gt;</code>，<code>&lt;table&gt;</code>，<code>&lt;form&gt;</code>等。</p><h3 id="行内块级元素"><a href="#行内块级元素" class="headerlink" title="行内块级元素"></a>行内块级元素</h3><p>  行内块级元素在同一行内显示，但是它们可以设置宽度和高度，并且可以像块级元素一样设置内外边距。它们不会强制换行，可以在一行内显示多个行内块级元素。</p><h4 id="特点-1"><a href="#特点-1" class="headerlink" title="特点"></a>特点</h4><ul><li>在同一行内显示。</li><li>可以设置宽度和高度。</li><li>可以设置内外边距。</li><li>不会强制换行。</li></ul><h4 id="示例行内块级元素"><a href="#示例行内块级元素" class="headerlink" title="示例行内块级元素"></a>示例行内块级元素</h4><p>  <code>&lt;img&gt;</code>，<code>&lt;button&gt;</code>， <code>&lt;select&gt;</code>，<code>&lt;input&gt;</code>等。</p><h3 id="行内元素"><a href="#行内元素" class="headerlink" title="行内元素"></a>行内元素</h3><p>  行内元素不会独占一行，它们会在同一行内显示，并且大小由内容决定，无法设置宽度和高度，其宽度随着内容增加，高度随字体大小而改变。通常情况下，行内元素不能设置上下内外边距，只能设置左右内外边距。</p><h4 id="特点-2"><a href="#特点-2" class="headerlink" title="特点"></a>特点</h4><ul><li>多个行内在同一行内显示，里面一般仅放文本，但 a 标签除外。相邻的行内元素会排列在同一行里，直到一行排不下，才会换行。行内元素的宽度由其中包含的内容决定，内容越多，宽度越大，可以随内容自动扩展，不需要设置宽度属性。</li><li>行内元素只能容纳文本或者其他行内元素。</li><li>由于行内元素是在同一行内显示的，所以通常只能设置左右内外边距，上下内外边距在默认情况下是不起作用的。</li></ul><h4 id="示例行内元素"><a href="#示例行内元素" class="headerlink" title="示例行内元素"></a>示例行内元素</h4><p>  <code>&lt;a&gt;</code>，<code>&lt;strong&gt;</code>，<code>&lt;em&gt;</code>，<code>&lt;span&gt;</code>。</p><h3 id="区别和转换方法"><a href="#区别和转换方法" class="headerlink" title="区别和转换方法"></a>区别和转换方法</h3><h4 id="区别"><a href="#区别" class="headerlink" title="区别"></a>区别</h4><ul><li>显示方式：块级元素和行内块级元素会独占一行或多行空间，而行内元素会在同一行内显示。</li><li>尺寸设置：块级元素和行内块级元素可以设置宽度和高度，而行内元素的尺寸由其内容决定。</li><li>内外边距：块级元素和行内块级元素可以设置上下内外边距，而行内元素通常只能设置左右内外边距。</li><li>换行行为：块级元素和行内块级元素会在其前后创建换行，而行内元素不会。</li></ul><h4 id="转换方法"><a href="#转换方法" class="headerlink" title="转换方法"></a>转换方法</h4><ol><li>块级元素转换为行内元素：设置 CSS 属性 <code>display: inline;</code>。</li></ol><pre class="line-numbers language-css"><code class="language-css"><span class="token property">display</span><span class="token punctuation">:</span> inline<span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><ol><li>行内元素转换为块级元素：设置 CSS 属性 <code>display: block;</code>。</li></ol><pre class="line-numbers language-css"><code class="language-css"><span class="token property">display</span><span class="token punctuation">:</span> block<span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><ol><li>行内元素转换为行内块级元素：设置 CSS 属性 <code>display: inline-block;</code>。</li></ol><pre class="line-numbers language-css"><code class="language-css"><span class="token property">display</span><span class="token punctuation">:</span> inline-block<span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>  通过深入理解这三种元素类型的特性、区别以及转换方法，我们能够更有效地管理页面的结构和外观，从而实现更具丰富性和灵活性的网页设计。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 前端基础 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> HTML </tag>
+            
+            <tag> 面试题 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>hello world</title>
+      <link href="/2024/02/27/hello-world/"/>
+      <url>/2024/02/27/hello-world/</url>
+      
+        <content type="html"><![CDATA[<h1 id="HELLO"><a href="#HELLO" class="headerlink" title="HELLO"></a>HELLO</h1><p>博客</p><h2 id="hello-world"><a href="#hello-world" class="headerlink" title="hello world"></a>hello world</h2>]]></content>
+      
+      
+      <categories>
+          
+          <category> 随笔 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 博客 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>

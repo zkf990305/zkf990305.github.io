@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>ZHENG的博客</title>
+  
+  <subtitle>码农</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://godweiyang.com/"/>
+  <updated>2024-03-25T12:44:01.580Z</updated>
+  <id>https://godweiyang.com/</id>
+  
+  <author>
+    <name>ZHENG</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>HTML5 新特性及已移除元素</title>
+    <link href="https://godweiyang.com/2024/03/25/html5-xin-te-xing-ji-yi-yi-chu-yuan-su/"/>
+    <id>https://godweiyang.com/2024/03/25/html5-xin-te-xing-ji-yi-yi-chu-yuan-su/</id>
+    <published>2024-03-25T10:16:04.000Z</published>
+    <updated>2024-03-25T12:44:01.580Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;HTML5 作为 HTML 的最新标准，引入了一系列新特性和改进，旨在提供更为丰富和强大的 Web 内容。然而，随着新特性的引入，HTML5 也对一些过时或不再推荐使用的元素进行了移除。&lt;/p&gt;
+&lt;h3 id=&quot;新特性&quot;&gt;&lt;a href=&quot;#新特性&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="前端基础" scheme="https://godweiyang.com/categories/%E5%89%8D%E7%AB%AF%E5%9F%BA%E7%A1%80/"/>
+    
+    
+      <category term="HTML" scheme="https://godweiyang.com/tags/HTML/"/>
+    
+      <category term="面试题" scheme="https://godweiyang.com/tags/%E9%9D%A2%E8%AF%95%E9%A2%98/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>探究HTML语义化的定义、优势以及必要性</title>
+    <link href="https://godweiyang.com/2024/03/25/tan-jiu-html-yu-yi-hua-de-ding-yi-you-shi-yi-ji-bi-yao-xing/"/>
+    <id>https://godweiyang.com/2024/03/25/tan-jiu-html-yu-yi-hua-de-ding-yi-you-shi-yi-ji-bi-yao-xing/</id>
+    <published>2024-03-25T09:18:52.000Z</published>
+    <updated>2024-03-25T12:44:01.582Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;blockquote&gt;
+&lt;p&gt;用正确的标签做正确的事情！&lt;/p&gt;
+&lt;p&gt;HTML 语义化就是让页面的内容结构化，便于对浏览器 、搜索引擎解析；&lt;/p&gt;
+&lt;p&gt;在没有样式 CSS
+        
+      
+    
+    </summary>
+    
+      <category term="前端基础" scheme="https://godweiyang.com/categories/%E5%89%8D%E7%AB%AF%E5%9F%BA%E7%A1%80/"/>
+    
+    
+      <category term="HTML" scheme="https://godweiyang.com/tags/HTML/"/>
+    
+      <category term="面试题" scheme="https://godweiyang.com/tags/%E9%9D%A2%E8%AF%95%E9%A2%98/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>深入理解块级元素、行内块级元素和行内元素：特点、区别及转换方法</title>
+    <link href="https://godweiyang.com/2024/03/25/shen-ru-li-jie-kuai-ji-yuan-su-xing-nei-kuai-ji-yuan-su-he-xing-nei-yuan-su-te-dian-qu-bie-ji-zhuan-huan-fang-fa/"/>
+    <id>https://godweiyang.com/2024/03/25/shen-ru-li-jie-kuai-ji-yuan-su-xing-nei-kuai-ji-yuan-su-he-xing-nei-yuan-su-te-dian-qu-bie-ji-zhuan-huan-fang-fa/</id>
+    <published>2024-03-25T06:12:59.000Z</published>
+    <updated>2024-03-25T12:44:01.584Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;blockquote&gt;
+&lt;p&gt;块元素（div、p、hr、h1-h6、header、footer、ul&amp;gt;li 、 dl dt dd）：可设宽高，padding，border，margin，line-height。
+        
+      
+    
+    </summary>
+    
+      <category term="前端基础" scheme="https://godweiyang.com/categories/%E5%89%8D%E7%AB%AF%E5%9F%BA%E7%A1%80/"/>
+    
+    
+      <category term="HTML" scheme="https://godweiyang.com/tags/HTML/"/>
+    
+      <category term="面试题" scheme="https://godweiyang.com/tags/%E9%9D%A2%E8%AF%95%E9%A2%98/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>hello world</title>
+    <link href="https://godweiyang.com/2024/02/27/hello-world/"/>
+    <id>https://godweiyang.com/2024/02/27/hello-world/</id>
+    <published>2024-02-27T02:40:07.000Z</published>
+    <updated>2024-03-25T12:44:01.581Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;HELLO&quot;&gt;&lt;a href=&quot;#HELLO&quot; class=&quot;headerlink&quot; title=&quot;HELLO&quot;&gt;&lt;/a&gt;HELLO&lt;/h1&gt;&lt;p&gt;博客&lt;/p&gt;
+&lt;h2 id=&quot;hello-world&quot;&gt;&lt;a href=&quot;#hello-world&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="随笔" scheme="https://godweiyang.com/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+      <category term="博客" scheme="https://godweiyang.com/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+  </entry>
+  
+</feed>
